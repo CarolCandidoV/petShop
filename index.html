@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetShop</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="contenedor">
+            <div class="cabecera">
+                <div class="logoMarca">
+                    <img id="logo" src="imagenes/logo.jpg" alt="Logo marca">
+
+                    <div class="nombreMarca">
+                        <h1>PetShop</h1>
+                        <p>Tu mascota feliz</p>
+                    </div>
+                </div>
+
+                <nav class="nav">
+                    <ul>
+                        <li>
+                            <a href="#categorias">Inicio</a>
+                        </li>
+                        <li>
+                            <a href="#productos">Productos</a>
+                        </li>
+                        <li>
+                            <a href="#promociones">Promociones</a>
+                        </li>
+                        <li>
+                            <a href="#informaciones">Nosotros</a>
+                        </li>
+                        <li>
+                            <a href="#contacto">Contacto</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div class="carrito">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+
+            </div>
+
+            <div class="buscador">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Buscar productos para tu mascota...">
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="promo">
+            <div class="contenedor caja1">
+                <h2>!Gran promoción!</h2>
+                <h3>50% de descuento en alimentos premium</h3>
+                <p>Cuida la salud de tu mascota con productos de calidad</p>
+
+                <button>Explorar</button>
+            </div>
+        </section>
+
+        <section id="categorias" class="categorias">
+            <div class="contenedor caja2">
+                <h2>Categorías</h2>
+                <p class="descripcion">Explora nuestra amplia variedad de productos para cada tipo de mascota</p>
+
+                <div class="grupoTarjetas">
+                    <div class="tarjetaCategoria">
+                        <div class="tarjetaCategoria1">
+                            <img class="imagen" src="imagenes/perroCategorias.avif" alt="imagen de perro">
+                            <div class="contenido">
+                                <h3>Perros</h3>
+                                <p>Todo para tu mejor amigo</p>
+                                <a href="">Ver productos</a>
+                            </div>
+                        </div>
+                        <div class="tarjetaCategoria2">
+                            <img class="imagen" src="imagenes/gatoCategorias.jpg" alt="imagen de gato">
+                            <div class="contenido">
+                                <h3>Gatos</h3>
+                                <p>Productos para felinos</p>
+                                <a href="">Ver productos</a>
+                            </div>
+                        </div>
+
+                        <div class="tarjetaCategoria3">
+                            <img class="imagen" src="imagenes/avesCategorias.jpg" alt="imagen de ave">
+                            <div class="contenido">
+                                <h3>Aves</h3>
+                                <p>Accesorios para pájaros</p>
+                                <a href="">Ver productos</a>
+                            </div>
+                        </div>
+
+                        <div class="tarjetaCategoria4">
+                            <img class="imagen" src="imagenes/pecesCategorias.jpg" alt="imagen de pez">
+                            <div class="contenido">
+                                <h3>Peces</h3>
+                                <p>Acuarios y más</p>
+                                <a href="">Ver productos</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="productos" class="productos">
+            <div class="contenedor caja3">
+                <h2>Productos Destacados</h2>
+                <p class="descripcion2">Los mejores productos seleccionados especialmente para tu mascota</p>
+
+                <div class="grupoDestacados">
+                    <div class="grupoTarjetasDestacados">
+                        <img class="imagen2" src="imagenes/alimento.jpg" alt="alimento">
+                        <div class="contenido2">
+                            <h3>Alimentos Premium para Perros</h3>
+                            <p>Nutrición completa y balanceada</p>
+                            <div class="estrella">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <p>4.8 (124)</p>
+                            </div>
+                            <p class="precio">
+                                $45.99
+                            </p>
+                            <button type="button">Agregar al carrito</button>
+                        </div>
+                    </div>
+
+                    <div class="grupoTarjetasDestacados">
+                        <img class="imagen2" src="imagenes/juguete.jpg" alt="">
+                        <div class="contenido2">
+                            <h3>Juguetes Interactivos</h3>
+                            <p>Mantén a tu mascota activa</p>
+                            <div class="estrella">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <p>4.6 (89)</p>
+                            </div>
+                            <p class="precio">
+                                $19.99
+                            </p>
+                            <button type="button">Agregar al carrito</button>
+                        </div>
+
+                    </div>
+
+                    <div class="grupoTarjetasDestacados">
+                        <img class="imagen2" src="imagenes/cama.jpg" alt="">
+                        <div class="contenido2">
+                            <h3>Cama Acolchada Premium</h3>
+                            <p>Comodidad superior para tu mascota</p>
+                            <div class="estrella">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <p>4.9 (156)</p>
+                            </div>
+                            <p class="precio">
+                                $89.99
+                            </p>
+                            <button type="button">Agregar al carrito</button>
+                        </div>
+
+
+                    </div>
+
+                    <div class="grupoTarjetasDestacados">
+                        <img class="imagen2" src="imagenes/kitDeCuidado.jpg" alt="">
+                        <div class="contenido2">
+                            <h3>Kit de Cuidado Veterinario</h3>
+                            <p>Todo lo que necesitas para el cuidado de tu mascota</p>
+                            <div class="estrella">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <p>4.7 (98)</p>
+                            </div>
+                            <p class="precio">
+                                $34.99
+                            </p>
+                            <button type="button">Agregar al carrito</button>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+            <a href="">Ver todos los productos</a>
+        </section>
+
+        <section id="promociones" class="promociones">
+            <div class="contenedor caja4">
+                <h2>Promociones Especiales</h2>
+                <p>Aprovecha nuestras ofertas exclusivas y ahorra en los mejores productos</p>
+                <div class="promocionesGenerales">
+                    <div class="tarjetaPromociones">
+                        <i class="fa-solid fa-percent"></i>
+                        <div class="contenido3">
+                            <h3>50% OFF</h3>
+                            <p>En alimentos seleccionados</p>
+                        </div>
+                    </div>
+                    <div class="tarjetaPromociones">
+                        <i class="fa-solid fa-gift"></i>
+                        <div class="contenido3">
+                            <h3>2x1</h3>
+                            <p>En juguetes para mascotas</p>
+                        </div>
+                    </div>
+                    <div class="tarjetaPromociones">
+                        <i class="fa-solid fa-truck"></i>
+                        <div class="contenido3">
+                            <h3>Envío Gratis</h3>
+                            <p>En compras mayores a $50</p>
+                        </div>
+                    </div>
+                    <div class="tarjetaPromociones">
+                        <i class="fa-solid fa-tag"></i>
+                        <div class="contenido3">
+                            <h3>Descuentos</h3>
+                            <p>Hasta 30% en accesorios</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contenedor promocionesDestacado">
+                <h2>¡Promoción del Mes!</h2>
+                <p>Lleva 3 productos</p>
+                <p>Válido en toda la tienda hasta fin de mes. No te pierdas esta oportunidad única.</p>
+                <a href="">Comprar ahora</a>
+            </div>
+
+            </div>
+        </section>
+
+        <section id="informaciones" class="informaciones">
+            <div class="contenedor caja5">
+                <h2>Sobre Nosotros</h2>
+                <p>Somos tu tienda de confianza para el cuidado de tu mascota</p>
+                <div class="grupoInformaciones">
+                    <div class="grupoInformaciones1">
+                        <img class="imagen3" src="imagenes/informacion.jpg" alt="">
+                        <div class="descripcion3">
+                            <h3>Tu tienda de mascotas de confianza desde 2015</h3>
+                            <p>En PetShop nos dedicamos a proporcionar los mejores productos y servicios para el cuidado de tus
+                                mascotas. Contamos con un equipo de expertos veterinarios que te asesorarán en cada compra. </p>
+                            <p>Nuestra misión es garantizar la felicidad y salud de tu mascota, ofreciendo productos de calidad
+                                premium, accesorios innovadores y el mejor servicio al cliente.</p>
+                            <a href="">Conoce más</a>
+                        </div>
+                    </div>
+                    <div class="grupoTarjetasInformaciones">
+                        <div class="tarjetasInformaciones">
+                            <i class="fa-solid fa-heart"></i>
+                            <h4>Amor por las mascotas</h4>
+                            <p>Nos apasiona el bienestar de tu mascota</p>
+                        </div>
+                        <div class="tarjetasInformaciones">
+                            <i class="fa-solid fa-medal"></i>
+                            <h4>Calidad garantizada</h4>
+                            <p>Solo productos de las mejores marcas</p>
+                        </div>
+                        <div class="tarjetasInformaciones">
+                            <i class="fa-solid fa-people-group"></i>
+                            <h4>Expertos veterinarios</h4>
+                            <p>Asesoramiento profesional siempre</p>
+                        </div>
+                        <div class="tarjetasInformaciones">
+                            <i class="fa-solid fa-clock"></i>
+                            <h4>10 años de experiencia</h4>
+                            <p>Sirviendo a familias y sus mascotas</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+
+        <section id="contacto" class="contacto">
+            <div class="caja6">
+                <h2>Contáctanos</h2>
+                <p>¿Tienes alguna pregunta? Estamos aquí para ayudarte</p>
+                <div class="informacionesGenerales">
+                    <div class="informacionesDeContacto">
+                        <h3>Información de Contacto</h3>
+                        <p>Ponte en contacto con nosotros a través de cualquiera de estos medios.
+                            Estaremos encantados de atenderte.</p>
+                        <div class="grupoInfoG">
+                            <div class="infoG">
+                                <i class="fa-solid fa-phone"></i>
+                                <p>Teléfono</p>
+                            </div>
+                            <div class="infoG">
+                                <i class="fa-solid fa-envelope"></i>
+                                <p>Email</p>
+                            </div>
+                            <div class="infoG">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <p>Dirección</p>
+                            </div>
+                            <div class="infoG">
+                                <div class="whatsApp">
+                                    <i class="fa-solid fa-message"></i>
+                                </div>
+                                <p>WhatsApp</p>
+                            </div>
+                        </div>
+                        <a href="">Chatea con nosotros</a>
+                    </div>
+
+                    <form class="formulario">
+                        <h3>Envíanos un mensaje</h3>
+
+                        <p>Nombre completo *</p>
+                        <input type="text" name="username" placeholder="Tu nombre" minlength="3" required>
+
+                        <p>Correo electrónico *</p>
+                        <input class="email" type="email" name="email" placeholder="tu@email.com" required>
+
+                        <p>Teléfono</p>
+                        <input class="telefono" type="tel" name="Teléfono" placeholder="+1 234 567 890" required>
+
+
+                        <label for="opciones">Asunto *</label>
+                        <select name="opciones" id="opciones">
+                            <option value="">Selecciona un asunto</option>
+                            <option value="1">Consulta sobre productos</option>
+                            <option value="2">Estado de pedido</option>
+                            <option value="3">Devoluciones</option>
+                            <option value="4">Otros</option>
+                        </select>
+
+                        <p>Mensaje *</p>
+                        <textarea name="mensaje" id="mensaje" rows="5" cols="40" minlength="10" maxlength="200"
+                            placeholder="Escribe tu mensaje aquí..."></textarea> <br>
+                        
+                        <div class="botonFormulario">
+                            <i class="fa-regular fa-paper-plane"></i>
+                            <input type="submit" value="Enviar mensaje">
+                        </div>
+                    </form>
+                </div>
+                
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <!-- Brand Info -->
+            <div class="footer-section brand">
+                <div class="brand-header">
+                    <img src="imagenes/logo.jpg" alt="Logo PetShop" class="logo-small">
+
+                    <div class="brand-text">
+                    <h2>PetShop</h2>
+                    <p class="slogan">Tu mascota feliz</p>
+                    </div>
+                </div>
+
+                <p>La mejor tienda para el cuidado de tu mascota. Productos de calidad, precios accesibles y el mejor servicio.</p>
+
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/?locale=es_ES"><i class="fab fa-facebook-f" aria-label="abrir Facebook"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fab fa-instagram" aria-label="abrir Instagram"></i></a>
+                    <a href="https://x.com/?lang=es"><i class="fab fa-twitter" aria-label=" abrir Twitter"></i></a>
+                    <a href="https://www.youtube.com/"><i class="fab fa-youtube" aria-label="abrir YouTube"></i></a>
+                </div>
+            </div>
+
+
+            <!-- Quick Links -->
+            <div class="footer-section links">
+            <h3>Enlaces Rápidos</h3>
+            <ul>
+                <li><a href="#categorias">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#promociones">Promociones</a></li>
+                <li><a href="#informaciones">Sobre Nosotros</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+            </div>
+
+            <!-- Categories -->
+            <div class="footer-section categories">
+            <h3>Categorías</h3>
+            <ul>
+                <li><a href="#categorias">Productos para Perros</a></li>
+                <li><a href="#categorias">Productos para Gatos</a></li>
+                <li><a href="#categorias">Productos para Aves</a></li>
+                <li><a href="#categorias">Productos para Peces</a></li>
+                <li><a href="#productos">Accesorios</a></li>
+            </ul>
+            </div>
+
+            <!-- Contact Info -->
+            <div class="footerContacto">
+            <h3>Contáctanos</h3>
+            <p>Calle Principal #123, Ciudad, País 12345</p>
+            <p>Tel: +1 (234) 567-890</p>
+            <p>Email: info@petshop.com</p>
+            <p>Horario:</p>
+            <ul>
+                <li>Lun - Sáb: 9:00 AM - 8:00 PM</li>
+                <li>Domingo: 10:00 AM - 6:00 PM</li>
+            </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2024 PetShop. Todos los derechos reservados.</p>
+            <div class="footer-links">
+            <a href="Enlace Política de Privacidad">Política de Privacidad</a>
+            <a href="Enlace Términos y Condiciones">Términos y Condiciones</a>
+            <a href="Enlace de cookies">Cookies</a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
